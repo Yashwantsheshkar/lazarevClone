@@ -232,6 +232,28 @@ nav:hover #nav-bottom{
     height: 100vh;
     width: 100%;
     background-color: #111;
+    position: relative;
+    padding: 2vw 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 
 }
+
+#page2-left{
+    height: 100%;
+    width: 45%;
+    background-color: grey;
+
+}
+
+#page2-right{
+    height: 100%;
+    width: 45%;
+    background-color: darkgrey;
+
+
+}
+
 
