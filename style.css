@@ -122,6 +122,7 @@ nav:hover #nav-bottom{
     align-items: center;
     justify-content: center;
     position: relative;
+    border-bottom: 2px solid #333 ;
 }
 
 #page1 h1{
@@ -244,16 +245,41 @@ nav:hover #nav-bottom{
 #page2-left{
     height: 100%;
     width: 45%;
-    background-color: grey;
+    background-color: #111;
 
 }
 
 #page2-right{
     height: 100%;
     width: 45%;
-    background-color: darkgrey;
+    background-color: #111;
+
 
 
 }
 
+.right-elem{
+    position: relative;
+    border-bottom: 1px solid #333;
+    
+    padding-top: 1vw;
+    padding-bottom: 0vw;
+
+}
+
+.right-elem img{
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0;
+
+
+}
+
+
+.right-elem h2{
+    font-size: 1.5vw;
+    font-family: "Gilroy-Regular";
+}
 
